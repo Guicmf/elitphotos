@@ -1,0 +1,167 @@
+* {margin: 0;
+box-sizing: border-box;}
+
+#elitphoto{color: white;
+text-decoration: none;
+font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+font-size: 20px;
+text-transform: uppercase;
+font-weight: bold;}
+
+li{
+    padding: 5px;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+font-size: 10px;
+text-transform: uppercase;
+font-weight: bolder;
+}
+
+ul{
+    list-style-type: none;
+}
+
+header svg {height: 12px;
+fill: white;
+margin: 15px ;}
+
+header {background-color: black;
+height: 100vh;
+width: 13%;
+padding: 20px;
+color: white;
+position: sticky;
+top: 0;}
+
+main { width: 87%;
+background-image: url(img_9.jpg);
+background-size: 100%;
+background-attachment: fixed;}
+
+#Welcome {height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: brightness(50%);
+}
+
+#Welcome h1{font-size: 50px;
+font-family: "Oswald", arial, sans-serif;
+color: white;
+text-transform: uppercase;
+font-weight: bold;}
+
+#Welcome p {color: white;
+    text-align: center;
+    width: 60%;
+    font-size: 20px;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+line-height: 1.7;}
+
+#Welcome a {display: inline-block;
+width: 164px;
+height: 53px;
+background-color: #df0e62;
+color: white;
+text-decoration: none;
+border-radius: 30px;
+text-align: center;
+line-height: 53px;
+font-size: 25px;
+
+}
+
+body{ display: flex;}
+
+.imagens { position: relative;
+width: 33%;
+height: 33vh;
+}
+
+#photos { display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+background-color: black;
+row-gap: 8px;}
+
+.imagens img{
+width: 100%;
+height: 33vh;
+object-fit: cover;
+transition: 1s;}
+
+
+.imagens:hover img{
+filter: brightness(50%);
+}
+
+.imagens svg{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 1s;
+    width: 3vh;
+}
+
+.imagens:hover svg{
+    opacity: 1;
+    top: 50%;
+}
+
+#testimonial{
+    background-color: black;
+    color: white;
+    list-style-type: none;
+    text-align: center;
+   padding-top: 70px;
+padding-bottom: 30vh;}
+
+.titulotestimonial{
+    font-size: 7vh;
+}
+
+#person_2{
+    border-radius: 50%;
+    width: 200px;
+}
+
+#Lorem_tesimonial{
+    font-size: 1.4vh;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+color: dimgray;}
+
+
+#jean{
+    font-size: 15px;
+}
+
+#biographya{
+    background-color: #1a1a1a;
+    padding-top: 100px;
+    color: beige;
+    padding-left: 270px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 70px;
+}
+
+#person_3{
+    width: 400px;
+    height: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#titulobiography{
+    font-size: 10vh;
+}
+
+#rosa{
+    color: #df0e62;
+}
+
+#segundalinha{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
